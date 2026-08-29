@@ -2,7 +2,7 @@
 
 A modern, high-performance desktop application for managing, optimizing, and customizing Wear OS smartwatches via ADB (Android Debug Bridge). Built with **Tauri v2 + Rust** on the backend and **React 19 + TypeScript + Vite + Tailwind CSS** on the frontend.
 
-![WearOS Manager Dashboard](docs/assets/dashboard.png)
+![WearOS Manager Dashboard](docs/dashboard.png)
 
 ---
 
