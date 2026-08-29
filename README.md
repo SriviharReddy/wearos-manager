@@ -66,3 +66,9 @@ bun run tauri build
 ```
 
 The compiled standalone executable will be generated at `src-tauri/target/release/wearos-manager.exe` along with Windows setup installers in `src-tauri/target/release/bundle/`.
+
+---
+
+## License
+
+Distributed under the [MIT License](https://opensource.org/licenses/MIT).
