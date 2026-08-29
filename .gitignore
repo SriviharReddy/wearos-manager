@@ -1,0 +1,76 @@
+# Node dependencies & package managers
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Tauri & Rust build artifacts
+src-tauri/target/
+**/target/
+**/*.rs.bk
+*.pdb
+*.d
+*.rlib
+
+# Compiled binaries and installers
+*.exe
+*.msi
+*.dll
+*.so
+*.dylib
+*.app
+*.dmg
+*.deb
+*.rpm
+*.AppImage
+
+# Logs and debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and local configurations
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor configurations
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# User Backups & Device Runtime Data
+Apps_Backup/*
+!Apps_Backup/.gitkeep
+bin/*
+!bin/.gitkeep
+*.apk
+!companion-apps/*.apk
+Device_history.txt
+device_history.json
