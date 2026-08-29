@@ -1,6 +1,18 @@
 # WearOS Manager
 
-A modern, high-performance desktop application for managing, optimizing, and customizing Wear OS smartwatches via ADB (Android Debug Bridge). Built with **Tauri v2 + Rust** and **React 19 + TypeScript + Vite + Tailwind CSS**.
+A modern, high-performance desktop application for managing, optimizing, and customizing Wear OS smartwatches via ADB (Android Debug Bridge). Built with **Tauri v2 + Rust** on the backend and **React 19 + TypeScript + Vite + Tailwind CSS** on the frontend.
+
+![WearOS Manager Dashboard](docs/assets/dashboard.png)
+
+---
+
+## 📚 Documentation & Guides
+
+Comprehensive guides for using and extending WearOS Manager:
+
+- 📡 **[Wireless Debugging & Pairing Guide](docs/WIRELESS_DEBUGGING_GUIDE.md)**: Instructions for connecting via Wi-Fi, pairing Wear OS 3/4/5 watches with 6-digit PINs, and device-specific notes (Galaxy Watch, Pixel Watch, OnePlus Watch 2).
+- ⚡ **[Performance, Battery & Optimization Guide](docs/OPTIMIZATION_GUIDE.md)**: In-depth breakdown of Ahead-of-Time ART Dexopt compilation, animation multipliers, DPI scaling, and OEM background bloatware management.
+- 🛠️ **[Developer & Architecture Guide](docs/DEVELOPMENT.md)**: System architecture, Tauri IPC command pipeline, and step-by-step instructions for adding new features.
 
 ---
 
@@ -16,7 +28,7 @@ A modern, high-performance desktop application for managing, optimizing, and cus
   - App management: Launch, Enable/Disable, Clear Cache/Data, Force Stop, and Uninstall.
   - Integrated Universal Android Debloater (UAD-NG) support.
 - **Backup & Multi-Snapshot Restoration**:
-  - Full or selective extraction of installed watch applications into timestamped backup folders.
+  - Full or selective extraction of installed watch applications into timestamped backup folders (`Apps_Backup/`).
   - Multi-backup browser with package inspection and selective or batch restoration.
 - **Screen Mirroring & Remote Control**:
   - High-performance, low-latency watch screen mirroring and interactive control via `scrcpy`.

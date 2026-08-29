@@ -170,7 +170,7 @@ pub fn list_bundled_apks() -> Vec<BundledApk> {
         if let Ok(entries) = std::fs::read_dir(dir_path) {
             for entry in entries.flatten() {
                 let path = entry.path();
-                if path.is_file() && path.extension().map_or(false, |ext| ext == "apk") {
+                if path.is_file() && path.extension().is_some_and(|ext| ext == "apk") {
                     let file_name = path.file_name().unwrap_or_default().to_string_lossy().to_string();
                     let name = file_name.replace(".apk", "").replace("_wear", "").replace("_", " ");
                     let size_bytes = entry.metadata().map(|m| m.len()).unwrap_or(0);

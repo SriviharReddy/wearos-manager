@@ -188,7 +188,7 @@ pub async fn restore_backup(
         if let Ok(files) = fs::read_dir(&pkg_path) {
             for f in files.flatten() {
                 let fpath = f.path();
-                if fpath.is_file() && fpath.extension().map_or(false, |e| e == "apk") {
+                if fpath.is_file() && fpath.extension().is_some_and(|e| e == "apk") {
                     let install_res = run_adb_device(
                         serial,
                         &["install", "-r", "-g", &fpath.to_string_lossy()],
