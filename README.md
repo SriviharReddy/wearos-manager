@@ -54,6 +54,18 @@ Comprehensive guides for using and extending WearOS Manager:
 - **Internationalization (i18n)**:
   - English (EN) and Spanish (ES) localization.
 
+## 📥 Downloads
+
+Grab the latest release from the [Releases Page](https://github.com/SriviharReddy/wearos-manager/releases):
+
+| Download | Type |
+| :--- | :--- |
+| **[`WearOS.Manager.exe`](https://github.com/SriviharReddy/wearos-manager/releases/latest/download/WearOS.Manager.exe)** | Portable Standalone Executable (No installation required) |
+| **[`WearOS.Manager_1.0.0_x64-setup.exe`](https://github.com/SriviharReddy/wearos-manager/releases/latest/download/WearOS.Manager_1.0.0_x64-setup.exe)** | Windows Setup Installer (NSIS) |
+| **[`WearOS.Manager_1.0.0_x64_en-US.msi`](https://github.com/SriviharReddy/wearos-manager/releases/latest/download/WearOS.Manager_1.0.0_x64_en-US.msi)** | Windows MSI Package |
+
+---
+
 ---
 
 ## Development & Build
